@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(60, 57, 53);
+    background-color: #d7e6e1;
 }
 
 .background {
@@ -17,10 +17,11 @@ body {
 
 .hijo {
     text-align: center;
-    background-color: bisque;
+    background-color: #ebebeb;
     width: 350px;
     height: 400px;
     border-radius: 10px;
+    box-shadow: 0px 0px 3px #000000;
 }
 
 .hijo h1 {
@@ -41,6 +42,14 @@ body {
 .btn-login {
     height: 30px;
     width: 80%;
+    background-color: #84e435;
+    border: none;
+    border-radius: 7px;
+}
+
+.btn-login:hover {
+    background-color: #79c739;
+
 }
 
 .btn-register {
@@ -54,10 +63,12 @@ button {
 
 span {
     color: #000000;
+    font-size: smaller;
 }
 
 a {
     text-decoration: none;
+    font-size: smaller;
 }
 
 hr {
@@ -76,4 +87,10 @@ input {
     height: 30px;
     padding-left: 5px;
     box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+
+.linea {
+    padding-top: 15px;
 }
